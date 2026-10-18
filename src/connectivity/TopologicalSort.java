@@ -32,7 +32,7 @@ public class TopologicalSort {
         state[u] = 1;
         for (Edge edge : graph.adjList.get(u)) {
             int v = edge.destination;
-            if (state[v] == 1) return true; // Обнаружен цикл
+            if (state[v] == 1) return true;
             if (state[v] == 0 && dfs(graph, v, state)) return true;
         }
         state[u] = 2;
