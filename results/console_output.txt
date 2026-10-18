@@ -1,0 +1,22 @@
+--- Experimental Analysis ---
+
+Graph: 10 vertices, 30 edges
+Average Kruskal time: 664199 ns
+Average Prim time: 383020 ns
+Average Dijkstra time: 392219 ns
+Average Tarjan SCC time: 372840 ns
+Average Topological Sort time: 203019 ns
+
+Graph: 100 vertices, 500 edges
+Average Kruskal time: 622020 ns
+Average Prim time: 446319 ns
+Average Dijkstra time: 259380 ns
+Average Tarjan SCC time: 241440 ns
+Average Topological Sort time: 9100 ns
+
+Graph: 1000 vertices, 5000 edges
+Average Kruskal time: 3833459 ns
+Average Prim time: 7382280 ns
+Average Dijkstra time: 2538300 ns
+Average Tarjan SCC time: 596000 ns
+Average Topological Sort time: 40060 ns
